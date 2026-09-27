@@ -1,0 +1,10 @@
+{
+  "description": "Enables supervisors to upload, analyze, and review SOC data with prioritized alerts and detailed case investigations for informed security decisions.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

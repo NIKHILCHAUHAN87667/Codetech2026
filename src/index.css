@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Manrope", "DM Sans", sans-serif;
+  --font-mono: "DM Mono", ui-monospace, monospace;
+}
+
+:root {
+  color-scheme: light;
+  --surface: #ffffff;
+  --canvas: #f3f5f2;
+  --ink: #1c302f;
+  --muted: #71817f;
+  --line: #dfe7e3;
+  --pine: #163b3b;
+  --teal: #14776d;
+  --teal-bright: #35a08f;
+  --sand: #efe9d9;
+  --shadow-card: 0 2px 5px rgb(22 50 46 / 3%), 0 14px 34px rgb(22 50 46 / 4%);
+}
+
+html {
+  background: var(--canvas);
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  color: var(--ink);
+  background:
+    radial-gradient(ellipse at 84% 0%, rgb(210 228 219 / 26%), transparent 34rem),
+    var(--canvas);
+}
+
+button,
+select,
+input,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* SAT-SA visual system: quiet institutional surfaces, deep pine navigation,
+   and measured teal accents for a calm supervisory workspace. */
+#root { min-height: 100vh; }
+
+#root > div.min-h-screen.bg-slate-50 {
+  background: transparent;
+}
+
+#root aside.fixed {
+  background: linear-gradient(180deg, #173a3a 0%, #112f31 100%);
+  border-right: 1px solid rgb(225 241 234 / 8%);
+  box-shadow: 10px 0 35px rgb(22 47 45 / 7%);
+}
+
+#root aside.fixed .px-6.py-6 {
+  padding-top: 1.65rem;
+  padding-bottom: 1.65rem;
+  border-bottom: 1px solid rgb(231 243 236 / 9%);
+}
+
+#root aside.fixed .bg-blue-600 {
+  background: #2a8176;
+}
+
+#root aside.fixed nav { padding-top: 1.2rem; }
+
+#root aside.fixed nav button {
+  min-height: 2.85rem;
+  border-radius: 9px;
+  font-size: .82rem;
+  letter-spacing: .005em;
+  transition: background-color .18s ease, color .18s ease, transform .18s ease;
+}
+
+#root aside.fixed nav button:hover { transform: translateX(2px); }
+
+#root aside.fixed nav button.bg-blue-600 {
+  background: linear-gradient(100deg, #286e66, #225e5c);
+  box-shadow: inset 2px 0 #8bd2b7, 0 5px 15px rgb(5 31 31 / 18%);
+}
+
+#root aside.fixed nav button.bg-blue-600 svg { color: #bce7d5; }
+
+#root aside.fixed nav button:not(.bg-blue-600):hover {
+  background: rgb(255 255 255 / 6%);
+}
+
+#root aside.fixed .border-t.border-white\/10 { border-color: rgb(231 243 236 / 10%); }
+
+#root aside.fixed .rounded-full.bg-amber-400 {
+  background: #c89e52;
+  color: #1d3634;
+}
+
+#root header.sticky {
+  height: 4.2rem;
+  background: rgb(250 251 248 / 94%);
+  border-color: #e0e7e3;
+  box-shadow: 0 3px 14px rgb(30 55 50 / 3%);
+}
+
+#root header.sticky .bg-emerald-50 {
+  background: #e9f3ed;
+  color: #316c59;
+  box-shadow: inset 0 0 0 1px #d4e7dc;
+}
+
+#root header.sticky .bg-emerald-500 { background: #4a9977; }
+
+#root main.mx-auto {
+  max-width: 1540px;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+#root main.mx-auto > div.space-y-7 { --tw-space-y-reverse: 0; }
+
+#root main.mx-auto .border-slate-200 { border-color: var(--line); }
+
+#root main.mx-auto .rounded-xl.border.bg-white,
+#root main.mx-auto section.rounded-xl {
+  border-radius: 12px;
+  border-color: #e0e7e3;
+  background-color: var(--surface);
+  box-shadow: var(--shadow-card);
+  transition: box-shadow .2s ease, border-color .2s ease, transform .2s ease;
+}
+
+#root main.mx-auto .rounded-xl.border.bg-white:hover {
+  border-color: #d4e1dc;
+  box-shadow: 0 4px 9px rgb(22 50 46 / 4%), 0 18px 40px rgb(22 50 46 / 6%);
+}
+
+#root main.mx-auto .text-slate-950,
+#root main.mx-auto .text-slate-900 { color: #1d3334; }
+
+#root main.mx-auto .text-slate-800,
+#root main.mx-auto .text-slate-700 { color: #39514f; }
+
+#root main.mx-auto .text-slate-600,
+#root main.mx-auto .text-slate-500 { color: #72827f; }
+
+#root main.mx-auto .text-xs.uppercase,
+#root main.mx-auto .uppercase.tracking-widest {
+  font-family: var(--font-mono);
+  font-size: .65rem;
+  letter-spacing: .13em;
+}
+
+#root main.mx-auto .text-2xl,
+#root main.mx-auto .text-3xl {
+  font-family: var(--font-display);
+  letter-spacing: -.045em;
+  line-height: 1.12;
+}
+
+#root main.mx-auto .text-2xl { font-size: clamp(1.55rem, 2vw, 2rem); }
+#root main.mx-auto .text-3xl { font-size: clamp(1.85rem, 2.6vw, 2.45rem); }
+
+#root main.mx-auto .font-bold { font-weight: 700; }
+
+#root main.mx-auto button.inline-flex {
+  border-radius: 8px;
+  letter-spacing: .005em;
+}
+
+#root main.mx-auto button.bg-blue-700 {
+  background: #176f65;
+  box-shadow: 0 3px 9px rgb(23 111 101 / 16%);
+}
+
+#root main.mx-auto button.bg-blue-700:hover { background: #125b54; }
+
+#root main.mx-auto button.focus\:ring-blue-500:focus-visible {
+  --tw-ring-color: #67b5a0;
+}
+
+#root main.mx-auto button.border-slate-300 {
+  border-color: #d8e1dd;
+}
+
+#root main.mx-auto .bg-blue-50 { background-color: #eaf4f0; }
+#root main.mx-auto .text-blue-700,
+#root main.mx-auto .text-blue-800 { color: #176f65; }
+#root main.mx-auto .bg-blue-600 { background-color: #267e73; }
+#root main.mx-auto .bg-blue-100 { background-color: #deeee8; }
+#root main.mx-auto .text-blue-900,
+#root main.mx-auto .text-blue-950 { color: #244d48; }
+
+#root main.mx-auto .ring-blue-100 { --tw-ring-color: #d9ebe5; }
+
+#root main.mx-auto table thead { background: #f5f8f6; }
+#root main.mx-auto table th {
+  color: #738581;
+  font-family: var(--font-mono);
+  font-size: .65rem;
+  letter-spacing: .08em;
+}
+#root main.mx-auto table tbody tr { transition: background-color .16s ease; }
+#root main.mx-auto table tbody tr:hover { background: #f5f9f7; }
+#root main.mx-auto table td,
+#root main.mx-auto table th { border-color: #e8eeeb; }
+
+#root main.mx-auto input,
+#root main.mx-auto select,
+#root main.mx-auto textarea {
+  border-color: #d7e1dc;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: border-color .16s ease, box-shadow .16s ease;
+}
+
+#root main.mx-auto input:focus,
+#root main.mx-auto select:focus,
+#root main.mx-auto textarea:focus {
+  border-color: #60a99a;
+  box-shadow: 0 0 0 3px rgb(65 145 127 / 12%);
+}
+
+#root main.mx-auto .border-dashed {
+  background-image: linear-gradient(135deg, rgb(239 246 241 / 68%), rgb(250 251 248 / 80%));
+}
+
+#root main.mx-auto .border-dashed:hover {
+  border-color: #83b8a6;
+  background-color: #eff7f3;
+}
+
+#root main.mx-auto .bg-amber-50 { background-color: #faf5e9; }
+#root main.mx-auto .text-amber-900 { color: #735b2b; }
+
+#root main.mx-auto .bg-red-50 { background-color: #fbefec; }
+#root main.mx-auto .text-red-700 { color: #a65345; }
+
+#root main.mx-auto .bg-emerald-50 { background-color: #eaf4ee; }
+#root main.mx-auto .text-emerald-700 { color: #367253; }
+
+#root main.mx-auto .bg-violet-50 { background-color: #f0eef6; }
+#root main.mx-auto .text-violet-700 { color: #675a88; }
+
+#root main.mx-auto .bg-slate-50 { background-color: #f5f7f5; }
+#root main.mx-auto .bg-slate-100 { background-color: #edf1ef; }
+
+#root main.mx-auto svg[aria-label] { overflow: visible; }
+
+#root > main.grid.min-h-screen {
+  background: #f7f8f5;
+}
+
+#root > main.grid.min-h-screen > section:first-child {
+  background: #163738;
+}
+
+#root > main.grid.min-h-screen > section:first-child > .absolute.inset-0 {
+  background: radial-gradient(ellipse at 75% 72%, #28645a 0, transparent 43%), linear-gradient(145deg, #193f40 0%, #142f34 52%, #10262e 100%);
+}
+
+#root > main.grid.min-h-screen > section:first-child > .absolute.rounded-full {
+  opacity: .35;
+}
+
+#root > main.grid.min-h-screen > section:first-child .bg-blue-600 {
+  background: #347d70;
+}
+
+#root > main.grid.min-h-screen > section:first-child .text-blue-700 { color: #a8d9c5; }
+
+#root > main.grid.min-h-screen > section:last-child {
+  background: linear-gradient(160deg, #f8f9f6, #eef2ee);
+}
+
+#root > main.grid.min-h-screen > section:last-child .text-slate-950 { color: #1b3333; }
+
+#root #toast {
+  border: 1px solid rgb(226 242 233 / 12%);
+  border-radius: 10px;
+  background: #183d3a;
+  box-shadow: 0 16px 40px rgb(16 43 39 / 24%);
+}
+
+@media (max-width: 1023px) {
+  #root main.mx-auto { padding-top: 1.5rem; }
+  #root nav.lg\:hidden { scrollbar-width: none; }
+  #root nav.lg\:hidden::-webkit-scrollbar { display: none; }
+  #root nav.lg\:hidden button { border-radius: 7px; }
+}
+
+@media (max-width: 640px) {
+  #root main.mx-auto { padding: 1rem .9rem 2rem; }
+  #root main.mx-auto .text-2xl { font-size: 1.5rem; }
+  #root main.mx-auto .text-3xl { font-size: 1.8rem; }
+  #root main.mx-auto .rounded-xl.border.bg-white,
+  #root main.mx-auto section.rounded-xl { border-radius: 10px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
+}

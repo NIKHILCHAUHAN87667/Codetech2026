@@ -1,0 +1,9 @@
+cse_id,definition_version,kpi_id,kpi_name,population_definition,reported_denominator,reported_numerator,reported_value,reporting_period_end,reporting_period_start,severity_scope,source_reference
+CSE-CHARLIE,1.0,CSE-CHARLIE-KPI-OSEC-Q3-2026,Observed Security Evidence Coverage,All in-scope assets/cases for period,554,528,95.37,2026-09-30T23:59:59Z,2026-07-01T00:00:00Z,ALL,CSE-INTERNAL-REPORT-Q3-2026-01
+CSE-CHARLIE,1.0,CSE-CHARLIE-KPI-CAMG-Q3-2026,Critical Asset Monitoring Gap,All in-scope assets/cases for period,1549,368,23.75,2026-09-30T23:59:59Z,2026-07-01T00:00:00Z,ALL,CSE-INTERNAL-REPORT-Q3-2026-02
+CSE-CHARLIE,1.0,CSE-CHARLIE-KPI-TTCP-Q3-2026,Median Time-to-Close (Investigations),All in-scope assets/cases for period,306,218,71.25,2026-09-30T23:59:59Z,2026-07-01T00:00:00Z,ALL,CSE-INTERNAL-REPORT-Q3-2026-03
+CSE-CHARLIE,1.0,CSE-CHARLIE-KPI-ICS-Q3-2026,Investigation Completeness Rate,All in-scope assets/cases for period,269,203,75.6,2026-09-30T23:59:59Z,2026-07-01T00:00:00Z,ALL,CSE-INTERNAL-REPORT-Q3-2026-04
+CSE-CHARLIE,1.0,CSE-CHARLIE-KPI-ER-Q3-2026,Escalation Compliance Rate,All in-scope assets/cases for period,893,646,72.35,2026-09-30T23:59:59Z,2026-07-01T00:00:00Z,HIGH_CRITICAL,CSE-INTERNAL-REPORT-Q3-2026-05
+CSE-CHARLIE,1.0,CSE-CHARLIE-KPI-PRR-Q3-2026,Post-Remediation Recurrence Rate,All in-scope assets/cases for period,3016,394,13.06,2026-09-30T23:59:59Z,2026-07-01T00:00:00Z,ALL,CSE-INTERNAL-REPORT-Q3-2026-06
+CSE-CHARLIE,1.0,CSE-CHARLIE-KPI-CEMR-Q3-2026,Closure Evidence Completeness Rate,All in-scope assets/cases for period,912,877,96.12,2026-09-30T23:59:59Z,2026-07-01T00:00:00Z,ALL,CSE-INTERNAL-REPORT-Q3-2026-07
+CSE-CHARLIE,1.0,CSE-CHARLIE-KPI-BR-Q3-2026,Case Backlog Ratio,All in-scope assets/cases for period,310,310,100.0,2026-09-30T23:59:59Z,2026-07-01T00:00:00Z,ALL,CSE-INTERNAL-REPORT-Q3-2026-08

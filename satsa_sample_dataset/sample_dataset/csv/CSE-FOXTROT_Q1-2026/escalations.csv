@@ -1,0 +1,5 @@
+case_id,escalated_at,escalated_flag,escalation_id,escalation_level,escalation_reason,escalation_required,escalation_rule_id
+CSE-FOXTROT-CASE-Q1-2026-00005,,False,CSE-FOXTROT-CASE-Q1-2026-00005-ESC-05,,Suspected multi-asset campaign,True,RULE-ESC-05
+CSE-FOXTROT-CASE-Q1-2026-00030,2026-01-28T09:24:29Z,True,CSE-FOXTROT-CASE-Q1-2026-00030-ESC-30,NCIIPC Liaison,Suspected multi-asset campaign,True,RULE-ESC-02
+CSE-FOXTROT-CASE-Q1-2026-00036,2026-03-23T15:52:04Z,True,CSE-FOXTROT-CASE-Q1-2026-00036-ESC-36,Team Lead,Suspected multi-asset campaign,True,RULE-ESC-05
+CSE-FOXTROT-CASE-Q1-2026-00043,2026-01-18T22:44:50Z,True,CSE-FOXTROT-CASE-Q1-2026-00043-ESC-43,External CERT-In,Suspected multi-asset campaign,True,RULE-ESC-05

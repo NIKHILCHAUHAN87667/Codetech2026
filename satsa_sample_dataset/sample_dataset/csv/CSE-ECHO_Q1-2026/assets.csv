@@ -1,0 +1,55 @@
+asset_id,asset_type,business_unit,criticality,monitoring_expected,monitoring_scope,status
+CSE-ECHO-AST-0001,Endpoint,Corporate IT,LOW,True,Network-only,ACTIVE
+CSE-ECHO-AST-0002,Application,Remote Sites,LOW,True,Network-only,ACTIVE
+CSE-ECHO-AST-0003,Cloud Workload,Data Center,MEDIUM,False,Endpoint-only,ACTIVE
+CSE-ECHO-AST-0004,Database,Corporate IT,LOW,False,Full telemetry,ACTIVE
+CSE-ECHO-AST-0005,Endpoint,Field Operations,HIGH,True,Endpoint-only,ACTIVE
+CSE-ECHO-AST-0006,Database,Corporate IT,MEDIUM,False,Log-only,ACTIVE
+CSE-ECHO-AST-0007,Application,Field Operations,CRITICAL,True,Network-only,ACTIVE
+CSE-ECHO-AST-0008,Server,Field Operations,HIGH,True,Full telemetry,ACTIVE
+CSE-ECHO-AST-0009,Server,Remote Sites,MEDIUM,True,Endpoint-only,ACTIVE
+CSE-ECHO-AST-0010,Cloud Workload,Customer Systems,MEDIUM,True,Log-only,ACTIVE
+CSE-ECHO-AST-0011,Cloud Workload,Data Center,CRITICAL,True,Full telemetry,ACTIVE
+CSE-ECHO-AST-0012,IoT/OT Device,Field Operations,MEDIUM,True,Full telemetry,ACTIVE
+CSE-ECHO-AST-0013,Server,Customer Systems,MEDIUM,True,Endpoint-only,ACTIVE
+CSE-ECHO-AST-0014,Application,Customer Systems,CRITICAL,True,Network-only,ACTIVE
+CSE-ECHO-AST-0015,Server,Remote Sites,MEDIUM,False,Network-only,ACTIVE
+CSE-ECHO-AST-0016,Server,OT Operations,LOW,True,Network-only,ACTIVE
+CSE-ECHO-AST-0017,IoT/OT Device,OT Operations,LOW,True,Network-only,ACTIVE
+CSE-ECHO-AST-0018,Database,Field Operations,MEDIUM,True,Log-only,ACTIVE
+CSE-ECHO-AST-0019,Cloud Workload,Corporate IT,MEDIUM,True,Network-only,ACTIVE
+CSE-ECHO-AST-0020,Cloud Workload,Customer Systems,LOW,True,Network-only,ACTIVE
+CSE-ECHO-AST-0021,Database,Customer Systems,MEDIUM,True,Full telemetry,ACTIVE
+CSE-ECHO-AST-0022,Database,Corporate IT,LOW,True,Log-only,ACTIVE
+CSE-ECHO-AST-0023,Server,Field Operations,CRITICAL,True,Network-only,ACTIVE
+CSE-ECHO-AST-0024,Database,Customer Systems,CRITICAL,True,Network-only,ACTIVE
+CSE-ECHO-AST-0025,IoT/OT Device,OT Operations,MEDIUM,False,Full telemetry,ACTIVE
+CSE-ECHO-AST-0026,Cloud Workload,Data Center,MEDIUM,True,Full telemetry,ACTIVE
+CSE-ECHO-AST-0027,IoT/OT Device,Corporate IT,LOW,True,Network-only,ACTIVE
+CSE-ECHO-AST-0028,Application,Remote Sites,CRITICAL,True,Endpoint-only,ACTIVE
+CSE-ECHO-AST-0029,IoT/OT Device,Customer Systems,CRITICAL,True,Full telemetry,ACTIVE
+CSE-ECHO-AST-0030,Database,Corporate IT,MEDIUM,True,Network-only,ACTIVE
+CSE-ECHO-AST-0031,IoT/OT Device,Field Operations,LOW,True,Endpoint-only,ACTIVE
+CSE-ECHO-AST-0032,Application,Data Center,MEDIUM,True,Full telemetry,ACTIVE
+CSE-ECHO-AST-0033,IoT/OT Device,Customer Systems,CRITICAL,True,Endpoint-only,ACTIVE
+CSE-ECHO-AST-0034,Endpoint,Corporate IT,MEDIUM,True,Full telemetry,ACTIVE
+CSE-ECHO-AST-0035,Application,Corporate IT,LOW,True,Endpoint-only,ACTIVE
+CSE-ECHO-AST-0036,Cloud Workload,Remote Sites,MEDIUM,False,Network-only,ACTIVE
+CSE-ECHO-AST-0037,IoT/OT Device,Customer Systems,CRITICAL,True,Network-only,ACTIVE
+CSE-ECHO-AST-0038,Cloud Workload,Customer Systems,HIGH,True,Network-only,ACTIVE
+CSE-ECHO-AST-0039,Endpoint,Remote Sites,CRITICAL,True,Log-only,ACTIVE
+CSE-ECHO-AST-0040,Network Device,Field Operations,LOW,True,Log-only,ACTIVE
+CSE-ECHO-AST-0041,Server,Corporate IT,CRITICAL,True,Full telemetry,ACTIVE
+CSE-ECHO-AST-0042,Network Device,Customer Systems,HIGH,True,Full telemetry,ACTIVE
+CSE-ECHO-AST-0043,Endpoint,Data Center,MEDIUM,False,Full telemetry,ACTIVE
+CSE-ECHO-AST-0044,Server,Data Center,MEDIUM,True,Network-only,ACTIVE
+CSE-ECHO-AST-0045,IoT/OT Device,Customer Systems,LOW,True,Full telemetry,ACTIVE
+CSE-ECHO-AST-0046,Server,Remote Sites,CRITICAL,True,Full telemetry,ACTIVE
+CSE-ECHO-AST-0047,Network Device,Field Operations,LOW,False,Network-only,ACTIVE
+CSE-ECHO-AST-0048,Network Device,Remote Sites,HIGH,True,Log-only,ACTIVE
+CSE-ECHO-AST-0049,Database,Customer Systems,MEDIUM,True,Network-only,ACTIVE
+CSE-ECHO-AST-0050,Server,Remote Sites,MEDIUM,False,Full telemetry,ACTIVE
+CSE-ECHO-AST-0051,Application,Corporate IT,MEDIUM,True,Network-only,ACTIVE
+CSE-ECHO-AST-0052,IoT/OT Device,Data Center,LOW,False,Network-only,ACTIVE
+CSE-ECHO-AST-0053,Server,Corporate IT,MEDIUM,True,Network-only,ACTIVE
+CSE-ECHO-AST-0054,Database,Remote Sites,MEDIUM,True,Network-only,ACTIVE

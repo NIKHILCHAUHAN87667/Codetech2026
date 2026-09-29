@@ -1,0 +1,9 @@
+cse_id,definition_version,kpi_id,kpi_name,population_definition,reported_denominator,reported_numerator,reported_value,reporting_period_end,reporting_period_start,severity_scope,source_reference
+CSE-ALPHA,1.0,CSE-ALPHA-KPI-OSEC-Q1-2026,Observed Security Evidence Coverage,All in-scope assets/cases for period,639,628,98.21,2026-03-31T23:59:59Z,2026-01-01T00:00:00Z,ALL,CSE-INTERNAL-REPORT-Q1-2026-01
+CSE-ALPHA,1.0,CSE-ALPHA-KPI-CAMG-Q1-2026,Critical Asset Monitoring Gap,All in-scope assets/cases for period,2133,257,12.05,2026-03-31T23:59:59Z,2026-01-01T00:00:00Z,ALL,CSE-INTERNAL-REPORT-Q1-2026-02
+CSE-ALPHA,1.0,CSE-ALPHA-KPI-TTCP-Q1-2026,Median Time-to-Close (Investigations),All in-scope assets/cases for period,976,699,71.64,2026-03-31T23:59:59Z,2026-01-01T00:00:00Z,ALL,CSE-INTERNAL-REPORT-Q1-2026-03
+CSE-ALPHA,1.0,CSE-ALPHA-KPI-ICS-Q1-2026,Investigation Completeness Rate,All in-scope assets/cases for period,1132,869,76.74,2026-03-31T23:59:59Z,2026-01-01T00:00:00Z,ALL,CSE-INTERNAL-REPORT-Q1-2026-04
+CSE-ALPHA,1.0,CSE-ALPHA-KPI-ER-Q1-2026,Escalation Compliance Rate,All in-scope assets/cases for period,942,867,92.03,2026-03-31T23:59:59Z,2026-01-01T00:00:00Z,HIGH_CRITICAL,CSE-INTERNAL-REPORT-Q1-2026-05
+CSE-ALPHA,1.0,CSE-ALPHA-KPI-PRR-Q1-2026,Post-Remediation Recurrence Rate,All in-scope assets/cases for period,11184,564,5.04,2026-03-31T23:59:59Z,2026-01-01T00:00:00Z,ALL,CSE-INTERNAL-REPORT-Q1-2026-06
+CSE-ALPHA,1.0,CSE-ALPHA-KPI-CEMR-Q1-2026,Closure Evidence Completeness Rate,All in-scope assets/cases for period,299,271,90.68,2026-03-31T23:59:59Z,2026-01-01T00:00:00Z,ALL,CSE-INTERNAL-REPORT-Q1-2026-07
+CSE-ALPHA,1.0,CSE-ALPHA-KPI-BR-Q1-2026,Case Backlog Ratio,All in-scope assets/cases for period,809,809,100.0,2026-03-31T23:59:59Z,2026-01-01T00:00:00Z,ALL,CSE-INTERNAL-REPORT-Q1-2026-08

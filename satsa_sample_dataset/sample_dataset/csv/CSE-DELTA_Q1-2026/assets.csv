@@ -1,0 +1,49 @@
+asset_id,asset_type,business_unit,criticality,monitoring_expected,monitoring_scope,status
+CSE-DELTA-AST-0001,Database,Remote Sites,MEDIUM,True,Full telemetry,ACTIVE
+CSE-DELTA-AST-0002,Endpoint,Corporate IT,HIGH,True,Full telemetry,ACTIVE
+CSE-DELTA-AST-0003,IoT/OT Device,Customer Systems,LOW,True,Full telemetry,ACTIVE
+CSE-DELTA-AST-0004,Network Device,Field Operations,HIGH,True,Full telemetry,ACTIVE
+CSE-DELTA-AST-0005,IoT/OT Device,Customer Systems,HIGH,True,Endpoint-only,ACTIVE
+CSE-DELTA-AST-0006,Network Device,Data Center,HIGH,True,Endpoint-only,ACTIVE
+CSE-DELTA-AST-0007,IoT/OT Device,Corporate IT,MEDIUM,True,Log-only,ACTIVE
+CSE-DELTA-AST-0008,IoT/OT Device,Field Operations,LOW,False,Endpoint-only,ACTIVE
+CSE-DELTA-AST-0009,Database,Remote Sites,MEDIUM,False,Full telemetry,ACTIVE
+CSE-DELTA-AST-0010,Server,Remote Sites,LOW,False,Endpoint-only,ACTIVE
+CSE-DELTA-AST-0011,Network Device,OT Operations,CRITICAL,True,Log-only,MAINTENANCE
+CSE-DELTA-AST-0012,Server,Customer Systems,HIGH,True,Log-only,MAINTENANCE
+CSE-DELTA-AST-0013,Endpoint,Customer Systems,LOW,True,Endpoint-only,ACTIVE
+CSE-DELTA-AST-0014,Network Device,Customer Systems,LOW,False,Log-only,ACTIVE
+CSE-DELTA-AST-0015,Database,Customer Systems,CRITICAL,True,Full telemetry,RETIRED
+CSE-DELTA-AST-0016,IoT/OT Device,OT Operations,HIGH,True,Endpoint-only,ACTIVE
+CSE-DELTA-AST-0017,Network Device,OT Operations,MEDIUM,True,Full telemetry,ACTIVE
+CSE-DELTA-AST-0018,IoT/OT Device,Field Operations,MEDIUM,True,Full telemetry,RETIRED
+CSE-DELTA-AST-0019,IoT/OT Device,Field Operations,LOW,True,Network-only,ACTIVE
+CSE-DELTA-AST-0020,Application,Remote Sites,HIGH,True,Network-only,ACTIVE
+CSE-DELTA-AST-0021,Cloud Workload,Corporate IT,CRITICAL,True,Full telemetry,ACTIVE
+CSE-DELTA-AST-0022,Server,Customer Systems,LOW,True,Log-only,ACTIVE
+CSE-DELTA-AST-0023,Network Device,Data Center,MEDIUM,True,Log-only,ACTIVE
+CSE-DELTA-AST-0024,Network Device,Data Center,LOW,True,Full telemetry,ACTIVE
+CSE-DELTA-AST-0025,Server,Data Center,MEDIUM,False,Log-only,ACTIVE
+CSE-DELTA-AST-0026,Database,OT Operations,MEDIUM,True,Endpoint-only,ACTIVE
+CSE-DELTA-AST-0027,Endpoint,Corporate IT,HIGH,True,Endpoint-only,ACTIVE
+CSE-DELTA-AST-0028,IoT/OT Device,Data Center,LOW,True,Full telemetry,ACTIVE
+CSE-DELTA-AST-0029,Database,Data Center,LOW,True,Endpoint-only,ACTIVE
+CSE-DELTA-AST-0030,Endpoint,Data Center,LOW,True,Endpoint-only,MAINTENANCE
+CSE-DELTA-AST-0031,Server,Field Operations,LOW,True,Full telemetry,ACTIVE
+CSE-DELTA-AST-0032,Application,Remote Sites,CRITICAL,True,Log-only,MAINTENANCE
+CSE-DELTA-AST-0033,Database,Field Operations,LOW,True,Log-only,ACTIVE
+CSE-DELTA-AST-0034,Application,Data Center,HIGH,True,Full telemetry,ACTIVE
+CSE-DELTA-AST-0035,Network Device,Data Center,LOW,True,Log-only,ACTIVE
+CSE-DELTA-AST-0036,Cloud Workload,Corporate IT,HIGH,True,Network-only,ACTIVE
+CSE-DELTA-AST-0037,Endpoint,Field Operations,LOW,True,Log-only,ACTIVE
+CSE-DELTA-AST-0038,Server,Data Center,MEDIUM,False,Endpoint-only,ACTIVE
+CSE-DELTA-AST-0039,Application,Corporate IT,HIGH,True,Log-only,ACTIVE
+CSE-DELTA-AST-0040,Server,Data Center,HIGH,True,Log-only,ACTIVE
+CSE-DELTA-AST-0041,Cloud Workload,Corporate IT,LOW,False,Network-only,ACTIVE
+CSE-DELTA-AST-0042,Database,Data Center,HIGH,True,Network-only,ACTIVE
+CSE-DELTA-AST-0043,Server,Field Operations,HIGH,True,Endpoint-only,ACTIVE
+CSE-DELTA-AST-0044,Network Device,Remote Sites,MEDIUM,True,Network-only,ACTIVE
+CSE-DELTA-AST-0045,Endpoint,Remote Sites,HIGH,True,Full telemetry,ACTIVE
+CSE-DELTA-AST-0046,Server,Remote Sites,LOW,True,Endpoint-only,ACTIVE
+CSE-DELTA-AST-0047,Network Device,Corporate IT,HIGH,True,Endpoint-only,ACTIVE
+CSE-DELTA-AST-0048,Application,Customer Systems,MEDIUM,False,Endpoint-only,MAINTENANCE

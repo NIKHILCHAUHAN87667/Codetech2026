@@ -1,0 +1,43 @@
+asset_id,asset_type,business_unit,criticality,monitoring_expected,monitoring_scope,status
+CSE-FOXTROT-AST-0001,Network Device,Data Center,MEDIUM,True,Network-only,ACTIVE
+CSE-FOXTROT-AST-0002,Endpoint,Remote Sites,HIGH,True,Full telemetry,ACTIVE
+CSE-FOXTROT-AST-0003,Network Device,Corporate IT,LOW,True,Network-only,ACTIVE
+CSE-FOXTROT-AST-0004,Cloud Workload,Customer Systems,MEDIUM,True,Network-only,ACTIVE
+CSE-FOXTROT-AST-0005,Application,Corporate IT,LOW,True,Log-only,ACTIVE
+CSE-FOXTROT-AST-0006,Application,Remote Sites,LOW,True,Log-only,ACTIVE
+CSE-FOXTROT-AST-0007,Network Device,Customer Systems,HIGH,True,Full telemetry,ACTIVE
+CSE-FOXTROT-AST-0008,Cloud Workload,Corporate IT,LOW,False,Log-only,ACTIVE
+CSE-FOXTROT-AST-0009,Server,Field Operations,LOW,True,Network-only,MAINTENANCE
+CSE-FOXTROT-AST-0010,Application,Field Operations,MEDIUM,True,Network-only,ACTIVE
+CSE-FOXTROT-AST-0011,Database,OT Operations,HIGH,True,Network-only,ACTIVE
+CSE-FOXTROT-AST-0012,Server,Customer Systems,CRITICAL,True,Log-only,ACTIVE
+CSE-FOXTROT-AST-0013,Cloud Workload,OT Operations,MEDIUM,True,Full telemetry,ACTIVE
+CSE-FOXTROT-AST-0014,IoT/OT Device,Corporate IT,MEDIUM,True,Network-only,ACTIVE
+CSE-FOXTROT-AST-0015,Application,Customer Systems,CRITICAL,True,Network-only,ACTIVE
+CSE-FOXTROT-AST-0016,Cloud Workload,Corporate IT,LOW,True,Log-only,ACTIVE
+CSE-FOXTROT-AST-0017,Application,Field Operations,CRITICAL,True,Log-only,ACTIVE
+CSE-FOXTROT-AST-0018,Cloud Workload,Data Center,HIGH,True,Full telemetry,ACTIVE
+CSE-FOXTROT-AST-0019,Network Device,Corporate IT,LOW,True,Endpoint-only,ACTIVE
+CSE-FOXTROT-AST-0020,Application,Field Operations,MEDIUM,True,Log-only,ACTIVE
+CSE-FOXTROT-AST-0021,Server,Corporate IT,MEDIUM,True,Full telemetry,ACTIVE
+CSE-FOXTROT-AST-0022,Application,Customer Systems,MEDIUM,True,Log-only,ACTIVE
+CSE-FOXTROT-AST-0023,Cloud Workload,Remote Sites,HIGH,True,Network-only,ACTIVE
+CSE-FOXTROT-AST-0024,Cloud Workload,Data Center,MEDIUM,True,Log-only,ACTIVE
+CSE-FOXTROT-AST-0025,Database,Data Center,HIGH,True,Log-only,ACTIVE
+CSE-FOXTROT-AST-0026,Application,Customer Systems,HIGH,True,Full telemetry,ACTIVE
+CSE-FOXTROT-AST-0027,IoT/OT Device,Field Operations,MEDIUM,True,Full telemetry,ACTIVE
+CSE-FOXTROT-AST-0028,IoT/OT Device,Remote Sites,MEDIUM,True,Full telemetry,ACTIVE
+CSE-FOXTROT-AST-0029,Server,Corporate IT,MEDIUM,True,Endpoint-only,ACTIVE
+CSE-FOXTROT-AST-0030,Cloud Workload,Data Center,MEDIUM,True,Full telemetry,ACTIVE
+CSE-FOXTROT-AST-0031,Network Device,OT Operations,HIGH,True,Log-only,ACTIVE
+CSE-FOXTROT-AST-0032,Endpoint,Corporate IT,HIGH,True,Full telemetry,ACTIVE
+CSE-FOXTROT-AST-0033,Endpoint,Remote Sites,MEDIUM,True,Full telemetry,ACTIVE
+CSE-FOXTROT-AST-0034,Cloud Workload,Data Center,HIGH,True,Endpoint-only,ACTIVE
+CSE-FOXTROT-AST-0035,IoT/OT Device,Field Operations,HIGH,True,Log-only,ACTIVE
+CSE-FOXTROT-AST-0036,Cloud Workload,OT Operations,LOW,True,Network-only,ACTIVE
+CSE-FOXTROT-AST-0037,Endpoint,Field Operations,HIGH,True,Log-only,ACTIVE
+CSE-FOXTROT-AST-0038,Network Device,Corporate IT,MEDIUM,True,Log-only,ACTIVE
+CSE-FOXTROT-AST-0039,Cloud Workload,OT Operations,CRITICAL,True,Network-only,ACTIVE
+CSE-FOXTROT-AST-0040,Network Device,Remote Sites,LOW,True,Network-only,ACTIVE
+CSE-FOXTROT-AST-0041,Endpoint,Customer Systems,LOW,True,Endpoint-only,ACTIVE
+CSE-FOXTROT-AST-0042,Database,Remote Sites,LOW,True,Endpoint-only,ACTIVE

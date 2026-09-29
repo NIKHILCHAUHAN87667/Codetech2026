@@ -1,0 +1,9 @@
+cse_id,definition_version,kpi_id,kpi_name,population_definition,reported_denominator,reported_numerator,reported_value,reporting_period_end,reporting_period_start,severity_scope,source_reference
+CSE-FOXTROT,1.0,CSE-FOXTROT-KPI-OSEC-Q1-2026,Observed Security Evidence Coverage,All in-scope assets/cases for period,258,252,97.71,2026-03-31T23:59:59Z,2026-01-01T00:00:00Z,ALL,CSE-INTERNAL-REPORT-Q1-2026-01
+CSE-FOXTROT,1.0,CSE-FOXTROT-KPI-CAMG-Q1-2026,Critical Asset Monitoring Gap,All in-scope assets/cases for period,52800,528,0.0,2026-03-31T23:59:59Z,2026-01-01T00:00:00Z,ALL,CSE-INTERNAL-REPORT-Q1-2026-02
+CSE-FOXTROT,1.0,CSE-FOXTROT-KPI-TTCP-Q1-2026,Median Time-to-Close (Investigations),All in-scope assets/cases for period,325,233,71.76,2026-03-31T23:59:59Z,2026-01-01T00:00:00Z,ALL,CSE-INTERNAL-REPORT-Q1-2026-03
+CSE-FOXTROT,1.0,CSE-FOXTROT-KPI-ICS-Q1-2026,Investigation Completeness Rate,All in-scope assets/cases for period,808,611,75.66,2026-03-31T23:59:59Z,2026-01-01T00:00:00Z,ALL,CSE-INTERNAL-REPORT-Q1-2026-04
+CSE-FOXTROT,1.0,CSE-FOXTROT-KPI-ER-Q1-2026,Escalation Compliance Rate,All in-scope assets/cases for period,923,704,76.25,2026-03-31T23:59:59Z,2026-01-01T00:00:00Z,HIGH_CRITICAL,CSE-INTERNAL-REPORT-Q1-2026-05
+CSE-FOXTROT,1.0,CSE-FOXTROT-KPI-PRR-Q1-2026,Post-Remediation Recurrence Rate,All in-scope assets/cases for period,2345,218,9.3,2026-03-31T23:59:59Z,2026-01-01T00:00:00Z,ALL,CSE-INTERNAL-REPORT-Q1-2026-06
+CSE-FOXTROT,1.0,CSE-FOXTROT-KPI-CEMR-Q1-2026,Closure Evidence Completeness Rate,All in-scope assets/cases for period,902,820,90.87,2026-03-31T23:59:59Z,2026-01-01T00:00:00Z,ALL,CSE-INTERNAL-REPORT-Q1-2026-07
+CSE-FOXTROT,1.0,CSE-FOXTROT-KPI-BR-Q1-2026,Case Backlog Ratio,All in-scope assets/cases for period,207,207,100.0,2026-03-31T23:59:59Z,2026-01-01T00:00:00Z,ALL,CSE-INTERNAL-REPORT-Q1-2026-08

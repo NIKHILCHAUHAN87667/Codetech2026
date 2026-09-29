@@ -1,0 +1,61 @@
+asset_id,asset_type,business_unit,criticality,monitoring_expected,monitoring_scope,status
+CSE-ALPHA-AST-0001,Server,Remote Sites,HIGH,True,Log-only,ACTIVE
+CSE-ALPHA-AST-0002,Network Device,Data Center,LOW,True,Endpoint-only,ACTIVE
+CSE-ALPHA-AST-0003,Server,Data Center,MEDIUM,True,Log-only,ACTIVE
+CSE-ALPHA-AST-0004,Server,Customer Systems,HIGH,True,Network-only,ACTIVE
+CSE-ALPHA-AST-0005,IoT/OT Device,Customer Systems,MEDIUM,True,Full telemetry,ACTIVE
+CSE-ALPHA-AST-0006,Server,Corporate IT,HIGH,True,Endpoint-only,ACTIVE
+CSE-ALPHA-AST-0007,Application,OT Operations,MEDIUM,True,Network-only,ACTIVE
+CSE-ALPHA-AST-0008,Endpoint,Customer Systems,LOW,True,Endpoint-only,ACTIVE
+CSE-ALPHA-AST-0009,Network Device,Customer Systems,CRITICAL,True,Endpoint-only,ACTIVE
+CSE-ALPHA-AST-0010,Endpoint,Corporate IT,HIGH,True,Log-only,ACTIVE
+CSE-ALPHA-AST-0011,IoT/OT Device,Field Operations,MEDIUM,False,Endpoint-only,ACTIVE
+CSE-ALPHA-AST-0012,IoT/OT Device,Data Center,HIGH,True,Log-only,ACTIVE
+CSE-ALPHA-AST-0013,Database,Field Operations,MEDIUM,True,Log-only,ACTIVE
+CSE-ALPHA-AST-0014,IoT/OT Device,OT Operations,LOW,True,Log-only,ACTIVE
+CSE-ALPHA-AST-0015,Network Device,Customer Systems,MEDIUM,True,Network-only,ACTIVE
+CSE-ALPHA-AST-0016,Endpoint,Field Operations,CRITICAL,True,Network-only,ACTIVE
+CSE-ALPHA-AST-0017,Network Device,OT Operations,LOW,True,Endpoint-only,ACTIVE
+CSE-ALPHA-AST-0018,Server,Data Center,LOW,False,Full telemetry,MAINTENANCE
+CSE-ALPHA-AST-0019,Cloud Workload,Customer Systems,MEDIUM,True,Full telemetry,MAINTENANCE
+CSE-ALPHA-AST-0020,IoT/OT Device,Remote Sites,CRITICAL,True,Full telemetry,ACTIVE
+CSE-ALPHA-AST-0021,Cloud Workload,Field Operations,LOW,True,Network-only,ACTIVE
+CSE-ALPHA-AST-0022,Application,Corporate IT,HIGH,True,Endpoint-only,ACTIVE
+CSE-ALPHA-AST-0023,Network Device,Remote Sites,LOW,False,Endpoint-only,ACTIVE
+CSE-ALPHA-AST-0024,IoT/OT Device,Customer Systems,MEDIUM,True,Network-only,ACTIVE
+CSE-ALPHA-AST-0025,IoT/OT Device,Remote Sites,MEDIUM,True,Full telemetry,ACTIVE
+CSE-ALPHA-AST-0026,IoT/OT Device,Data Center,MEDIUM,True,Endpoint-only,ACTIVE
+CSE-ALPHA-AST-0027,Cloud Workload,Remote Sites,HIGH,True,Log-only,RETIRED
+CSE-ALPHA-AST-0028,Endpoint,Customer Systems,HIGH,True,Log-only,ACTIVE
+CSE-ALPHA-AST-0029,Database,OT Operations,HIGH,True,Full telemetry,ACTIVE
+CSE-ALPHA-AST-0030,Endpoint,Field Operations,MEDIUM,True,Log-only,ACTIVE
+CSE-ALPHA-AST-0031,Endpoint,Corporate IT,MEDIUM,True,Full telemetry,ACTIVE
+CSE-ALPHA-AST-0032,Endpoint,OT Operations,CRITICAL,True,Full telemetry,MAINTENANCE
+CSE-ALPHA-AST-0033,IoT/OT Device,Remote Sites,MEDIUM,True,Network-only,ACTIVE
+CSE-ALPHA-AST-0034,Endpoint,Field Operations,LOW,True,Full telemetry,ACTIVE
+CSE-ALPHA-AST-0035,IoT/OT Device,OT Operations,CRITICAL,True,Network-only,ACTIVE
+CSE-ALPHA-AST-0036,Application,OT Operations,LOW,True,Log-only,ACTIVE
+CSE-ALPHA-AST-0037,Network Device,OT Operations,MEDIUM,False,Full telemetry,ACTIVE
+CSE-ALPHA-AST-0038,Application,Field Operations,HIGH,True,Network-only,ACTIVE
+CSE-ALPHA-AST-0039,Database,OT Operations,CRITICAL,True,Full telemetry,ACTIVE
+CSE-ALPHA-AST-0040,Network Device,Remote Sites,MEDIUM,True,Endpoint-only,ACTIVE
+CSE-ALPHA-AST-0041,Cloud Workload,Remote Sites,CRITICAL,True,Full telemetry,ACTIVE
+CSE-ALPHA-AST-0042,Network Device,Data Center,MEDIUM,False,Endpoint-only,ACTIVE
+CSE-ALPHA-AST-0043,Application,OT Operations,MEDIUM,True,Endpoint-only,ACTIVE
+CSE-ALPHA-AST-0044,Server,Data Center,HIGH,True,Log-only,ACTIVE
+CSE-ALPHA-AST-0045,Application,Remote Sites,HIGH,True,Full telemetry,MAINTENANCE
+CSE-ALPHA-AST-0046,Network Device,Corporate IT,HIGH,True,Full telemetry,ACTIVE
+CSE-ALPHA-AST-0047,Endpoint,Remote Sites,MEDIUM,True,Endpoint-only,ACTIVE
+CSE-ALPHA-AST-0048,Database,Corporate IT,MEDIUM,True,Endpoint-only,ACTIVE
+CSE-ALPHA-AST-0049,Network Device,Remote Sites,MEDIUM,True,Log-only,ACTIVE
+CSE-ALPHA-AST-0050,IoT/OT Device,Customer Systems,HIGH,True,Network-only,ACTIVE
+CSE-ALPHA-AST-0051,Server,Field Operations,LOW,True,Network-only,ACTIVE
+CSE-ALPHA-AST-0052,Database,Data Center,MEDIUM,True,Network-only,ACTIVE
+CSE-ALPHA-AST-0053,Server,Field Operations,MEDIUM,True,Network-only,ACTIVE
+CSE-ALPHA-AST-0054,Endpoint,Remote Sites,MEDIUM,True,Log-only,ACTIVE
+CSE-ALPHA-AST-0055,Endpoint,OT Operations,CRITICAL,True,Log-only,ACTIVE
+CSE-ALPHA-AST-0056,Network Device,Customer Systems,HIGH,True,Log-only,ACTIVE
+CSE-ALPHA-AST-0057,Cloud Workload,OT Operations,HIGH,True,Network-only,ACTIVE
+CSE-ALPHA-AST-0058,Database,Customer Systems,LOW,True,Endpoint-only,ACTIVE
+CSE-ALPHA-AST-0059,Endpoint,Remote Sites,MEDIUM,False,Network-only,ACTIVE
+CSE-ALPHA-AST-0060,Database,Corporate IT,LOW,True,Endpoint-only,ACTIVE

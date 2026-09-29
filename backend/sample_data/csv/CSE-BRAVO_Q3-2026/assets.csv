@@ -1,0 +1,79 @@
+asset_id,asset_type,business_unit,criticality,monitoring_expected,monitoring_scope,status
+CSE-BRAVO-AST-0001,IoT/OT Device,Data Center,LOW,True,Log-only,ACTIVE
+CSE-BRAVO-AST-0002,Application,Field Operations,HIGH,True,Endpoint-only,ACTIVE
+CSE-BRAVO-AST-0003,Server,Customer Systems,MEDIUM,True,Endpoint-only,ACTIVE
+CSE-BRAVO-AST-0004,Application,Field Operations,LOW,True,Endpoint-only,ACTIVE
+CSE-BRAVO-AST-0005,Cloud Workload,Remote Sites,CRITICAL,True,Endpoint-only,ACTIVE
+CSE-BRAVO-AST-0006,Server,Remote Sites,HIGH,True,Network-only,ACTIVE
+CSE-BRAVO-AST-0007,Endpoint,Customer Systems,MEDIUM,False,Log-only,RETIRED
+CSE-BRAVO-AST-0008,Network Device,Data Center,MEDIUM,False,Full telemetry,ACTIVE
+CSE-BRAVO-AST-0009,IoT/OT Device,OT Operations,LOW,True,Full telemetry,ACTIVE
+CSE-BRAVO-AST-0010,Database,Customer Systems,CRITICAL,True,Log-only,ACTIVE
+CSE-BRAVO-AST-0011,Endpoint,Field Operations,MEDIUM,True,Log-only,ACTIVE
+CSE-BRAVO-AST-0012,IoT/OT Device,Customer Systems,MEDIUM,False,Full telemetry,ACTIVE
+CSE-BRAVO-AST-0013,Network Device,OT Operations,LOW,True,Endpoint-only,ACTIVE
+CSE-BRAVO-AST-0014,IoT/OT Device,Corporate IT,HIGH,True,Network-only,ACTIVE
+CSE-BRAVO-AST-0015,Application,Data Center,MEDIUM,True,Endpoint-only,ACTIVE
+CSE-BRAVO-AST-0016,Server,Field Operations,LOW,True,Full telemetry,ACTIVE
+CSE-BRAVO-AST-0017,Cloud Workload,Remote Sites,LOW,False,Network-only,ACTIVE
+CSE-BRAVO-AST-0018,Application,OT Operations,CRITICAL,True,Endpoint-only,ACTIVE
+CSE-BRAVO-AST-0019,Network Device,Customer Systems,MEDIUM,True,Log-only,ACTIVE
+CSE-BRAVO-AST-0020,Database,Remote Sites,HIGH,True,Full telemetry,ACTIVE
+CSE-BRAVO-AST-0021,Server,Field Operations,LOW,True,Full telemetry,ACTIVE
+CSE-BRAVO-AST-0022,Application,Customer Systems,LOW,True,Log-only,ACTIVE
+CSE-BRAVO-AST-0023,Database,OT Operations,HIGH,True,Endpoint-only,ACTIVE
+CSE-BRAVO-AST-0024,Network Device,Corporate IT,HIGH,True,Log-only,ACTIVE
+CSE-BRAVO-AST-0025,Endpoint,Data Center,HIGH,True,Endpoint-only,ACTIVE
+CSE-BRAVO-AST-0026,Server,OT Operations,MEDIUM,False,Log-only,ACTIVE
+CSE-BRAVO-AST-0027,IoT/OT Device,Corporate IT,LOW,True,Full telemetry,ACTIVE
+CSE-BRAVO-AST-0028,Application,Field Operations,MEDIUM,True,Log-only,ACTIVE
+CSE-BRAVO-AST-0029,Cloud Workload,Field Operations,MEDIUM,False,Full telemetry,ACTIVE
+CSE-BRAVO-AST-0030,Endpoint,OT Operations,MEDIUM,True,Network-only,ACTIVE
+CSE-BRAVO-AST-0031,Cloud Workload,Corporate IT,CRITICAL,True,Full telemetry,ACTIVE
+CSE-BRAVO-AST-0032,Network Device,Remote Sites,MEDIUM,False,Full telemetry,ACTIVE
+CSE-BRAVO-AST-0033,Network Device,Corporate IT,LOW,True,Endpoint-only,ACTIVE
+CSE-BRAVO-AST-0034,Cloud Workload,Data Center,LOW,True,Log-only,ACTIVE
+CSE-BRAVO-AST-0035,Endpoint,Remote Sites,MEDIUM,False,Endpoint-only,ACTIVE
+CSE-BRAVO-AST-0036,IoT/OT Device,Remote Sites,HIGH,True,Log-only,RETIRED
+CSE-BRAVO-AST-0037,Cloud Workload,OT Operations,HIGH,True,Full telemetry,ACTIVE
+CSE-BRAVO-AST-0038,Server,Field Operations,LOW,True,Network-only,ACTIVE
+CSE-BRAVO-AST-0039,Server,Data Center,CRITICAL,True,Log-only,MAINTENANCE
+CSE-BRAVO-AST-0040,IoT/OT Device,Corporate IT,LOW,True,Network-only,ACTIVE
+CSE-BRAVO-AST-0041,Cloud Workload,Field Operations,MEDIUM,False,Endpoint-only,ACTIVE
+CSE-BRAVO-AST-0042,Database,Corporate IT,HIGH,True,Log-only,ACTIVE
+CSE-BRAVO-AST-0043,Server,Corporate IT,MEDIUM,False,Endpoint-only,ACTIVE
+CSE-BRAVO-AST-0044,IoT/OT Device,Customer Systems,MEDIUM,True,Full telemetry,ACTIVE
+CSE-BRAVO-AST-0045,Application,Data Center,LOW,True,Full telemetry,ACTIVE
+CSE-BRAVO-AST-0046,Database,Corporate IT,CRITICAL,True,Log-only,ACTIVE
+CSE-BRAVO-AST-0047,Cloud Workload,Corporate IT,MEDIUM,True,Network-only,ACTIVE
+CSE-BRAVO-AST-0048,IoT/OT Device,Data Center,LOW,False,Full telemetry,ACTIVE
+CSE-BRAVO-AST-0049,IoT/OT Device,Customer Systems,LOW,False,Full telemetry,ACTIVE
+CSE-BRAVO-AST-0050,Server,Field Operations,LOW,True,Network-only,RETIRED
+CSE-BRAVO-AST-0051,Database,OT Operations,MEDIUM,True,Network-only,ACTIVE
+CSE-BRAVO-AST-0052,Cloud Workload,OT Operations,LOW,True,Full telemetry,ACTIVE
+CSE-BRAVO-AST-0053,Cloud Workload,Field Operations,CRITICAL,True,Network-only,ACTIVE
+CSE-BRAVO-AST-0054,Server,OT Operations,HIGH,True,Full telemetry,ACTIVE
+CSE-BRAVO-AST-0055,Network Device,Field Operations,MEDIUM,True,Full telemetry,ACTIVE
+CSE-BRAVO-AST-0056,Network Device,OT Operations,MEDIUM,True,Full telemetry,ACTIVE
+CSE-BRAVO-AST-0057,Network Device,Field Operations,HIGH,True,Log-only,ACTIVE
+CSE-BRAVO-AST-0058,Endpoint,Corporate IT,LOW,True,Full telemetry,ACTIVE
+CSE-BRAVO-AST-0059,Server,OT Operations,HIGH,True,Log-only,ACTIVE
+CSE-BRAVO-AST-0060,Database,Data Center,LOW,True,Endpoint-only,ACTIVE
+CSE-BRAVO-AST-0061,Cloud Workload,OT Operations,MEDIUM,False,Full telemetry,ACTIVE
+CSE-BRAVO-AST-0062,Database,Data Center,CRITICAL,True,Log-only,ACTIVE
+CSE-BRAVO-AST-0063,Application,Field Operations,LOW,True,Network-only,ACTIVE
+CSE-BRAVO-AST-0064,IoT/OT Device,Customer Systems,CRITICAL,True,Log-only,ACTIVE
+CSE-BRAVO-AST-0065,Endpoint,OT Operations,CRITICAL,True,Log-only,ACTIVE
+CSE-BRAVO-AST-0066,Application,Corporate IT,HIGH,True,Endpoint-only,ACTIVE
+CSE-BRAVO-AST-0067,Cloud Workload,OT Operations,MEDIUM,True,Network-only,RETIRED
+CSE-BRAVO-AST-0068,Application,Remote Sites,LOW,False,Endpoint-only,ACTIVE
+CSE-BRAVO-AST-0069,Network Device,Corporate IT,MEDIUM,True,Endpoint-only,ACTIVE
+CSE-BRAVO-AST-0070,IoT/OT Device,Customer Systems,MEDIUM,True,Full telemetry,ACTIVE
+CSE-BRAVO-AST-0071,IoT/OT Device,Corporate IT,HIGH,True,Full telemetry,ACTIVE
+CSE-BRAVO-AST-0072,Cloud Workload,Field Operations,MEDIUM,False,Endpoint-only,ACTIVE
+CSE-BRAVO-AST-0073,Cloud Workload,Corporate IT,MEDIUM,True,Log-only,ACTIVE
+CSE-BRAVO-AST-0074,Endpoint,Corporate IT,HIGH,True,Full telemetry,ACTIVE
+CSE-BRAVO-AST-0075,Application,Customer Systems,MEDIUM,True,Network-only,ACTIVE
+CSE-BRAVO-AST-0076,Database,Corporate IT,HIGH,True,Full telemetry,ACTIVE
+CSE-BRAVO-AST-0077,Application,Corporate IT,LOW,True,Full telemetry,ACTIVE
+CSE-BRAVO-AST-0078,Network Device,Data Center,CRITICAL,True,Full telemetry,ACTIVE

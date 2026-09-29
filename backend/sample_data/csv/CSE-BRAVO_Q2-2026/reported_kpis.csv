@@ -1,0 +1,9 @@
+cse_id,definition_version,kpi_id,kpi_name,population_definition,reported_denominator,reported_numerator,reported_value,reporting_period_end,reporting_period_start,severity_scope,source_reference
+CSE-BRAVO,1.0,CSE-BRAVO-KPI-OSEC-Q2-2026,Observed Security Evidence Coverage,All in-scope assets/cases for period,435,423,97.23,2026-06-30T23:59:59Z,2026-04-01T00:00:00Z,ALL,CSE-INTERNAL-REPORT-Q2-2026-01
+CSE-BRAVO,1.0,CSE-BRAVO-KPI-CAMG-Q2-2026,Critical Asset Monitoring Gap,All in-scope assets/cases for period,90000,900,0.0,2026-06-30T23:59:59Z,2026-04-01T00:00:00Z,ALL,CSE-INTERNAL-REPORT-Q2-2026-02
+CSE-BRAVO,1.0,CSE-BRAVO-KPI-TTCP-Q2-2026,Median Time-to-Close (Investigations),All in-scope assets/cases for period,615,437,71.02,2026-06-30T23:59:59Z,2026-04-01T00:00:00Z,ALL,CSE-INTERNAL-REPORT-Q2-2026-03
+CSE-BRAVO,1.0,CSE-BRAVO-KPI-ICS-Q2-2026,Investigation Completeness Rate,All in-scope assets/cases for period,1152,872,75.7,2026-06-30T23:59:59Z,2026-04-01T00:00:00Z,ALL,CSE-INTERNAL-REPORT-Q2-2026-04
+CSE-BRAVO,1.0,CSE-BRAVO-KPI-ER-Q2-2026,Escalation Compliance Rate,All in-scope assets/cases for period,607,607,100.0,2026-06-30T23:59:59Z,2026-04-01T00:00:00Z,HIGH_CRITICAL,CSE-INTERNAL-REPORT-Q2-2026-05
+CSE-BRAVO,1.0,CSE-BRAVO-KPI-PRR-Q2-2026,Post-Remediation Recurrence Rate,All in-scope assets/cases for period,7247,831,11.47,2026-06-30T23:59:59Z,2026-04-01T00:00:00Z,ALL,CSE-INTERNAL-REPORT-Q2-2026-06
+CSE-BRAVO,1.0,CSE-BRAVO-KPI-CEMR-Q2-2026,Closure Evidence Completeness Rate,All in-scope assets/cases for period,317,306,96.57,2026-06-30T23:59:59Z,2026-04-01T00:00:00Z,ALL,CSE-INTERNAL-REPORT-Q2-2026-07
+CSE-BRAVO,1.0,CSE-BRAVO-KPI-BR-Q2-2026,Case Backlog Ratio,All in-scope assets/cases for period,574,574,100.0,2026-06-30T23:59:59Z,2026-04-01T00:00:00Z,ALL,CSE-INTERNAL-REPORT-Q2-2026-08

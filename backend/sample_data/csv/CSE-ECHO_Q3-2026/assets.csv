@@ -1,0 +1,55 @@
+asset_id,asset_type,business_unit,criticality,monitoring_expected,monitoring_scope,status
+CSE-ECHO-AST-0001,Server,Field Operations,MEDIUM,True,Network-only,ACTIVE
+CSE-ECHO-AST-0002,Database,OT Operations,HIGH,True,Network-only,ACTIVE
+CSE-ECHO-AST-0003,Network Device,Data Center,HIGH,True,Log-only,ACTIVE
+CSE-ECHO-AST-0004,Database,Remote Sites,CRITICAL,True,Network-only,ACTIVE
+CSE-ECHO-AST-0005,Cloud Workload,Field Operations,MEDIUM,False,Network-only,ACTIVE
+CSE-ECHO-AST-0006,Cloud Workload,Remote Sites,MEDIUM,True,Endpoint-only,ACTIVE
+CSE-ECHO-AST-0007,IoT/OT Device,Remote Sites,LOW,True,Full telemetry,ACTIVE
+CSE-ECHO-AST-0008,Endpoint,Customer Systems,MEDIUM,True,Full telemetry,ACTIVE
+CSE-ECHO-AST-0009,Network Device,Remote Sites,LOW,True,Endpoint-only,ACTIVE
+CSE-ECHO-AST-0010,Database,Remote Sites,MEDIUM,True,Log-only,ACTIVE
+CSE-ECHO-AST-0011,IoT/OT Device,Corporate IT,MEDIUM,True,Endpoint-only,ACTIVE
+CSE-ECHO-AST-0012,Application,Data Center,MEDIUM,False,Endpoint-only,ACTIVE
+CSE-ECHO-AST-0013,Endpoint,OT Operations,MEDIUM,False,Full telemetry,ACTIVE
+CSE-ECHO-AST-0014,Network Device,Corporate IT,HIGH,True,Full telemetry,ACTIVE
+CSE-ECHO-AST-0015,IoT/OT Device,Remote Sites,MEDIUM,True,Full telemetry,ACTIVE
+CSE-ECHO-AST-0016,Network Device,Corporate IT,MEDIUM,True,Full telemetry,ACTIVE
+CSE-ECHO-AST-0017,Database,Corporate IT,MEDIUM,False,Network-only,ACTIVE
+CSE-ECHO-AST-0018,Cloud Workload,Data Center,HIGH,True,Endpoint-only,ACTIVE
+CSE-ECHO-AST-0019,Database,Field Operations,LOW,True,Log-only,ACTIVE
+CSE-ECHO-AST-0020,Endpoint,OT Operations,LOW,True,Endpoint-only,ACTIVE
+CSE-ECHO-AST-0021,Endpoint,Corporate IT,MEDIUM,True,Network-only,ACTIVE
+CSE-ECHO-AST-0022,Application,Data Center,CRITICAL,True,Log-only,ACTIVE
+CSE-ECHO-AST-0023,Application,Corporate IT,LOW,True,Network-only,ACTIVE
+CSE-ECHO-AST-0024,Network Device,Data Center,CRITICAL,True,Log-only,ACTIVE
+CSE-ECHO-AST-0025,Server,Customer Systems,CRITICAL,True,Network-only,ACTIVE
+CSE-ECHO-AST-0026,Server,OT Operations,HIGH,True,Log-only,RETIRED
+CSE-ECHO-AST-0027,Endpoint,OT Operations,LOW,False,Endpoint-only,RETIRED
+CSE-ECHO-AST-0028,Server,Remote Sites,MEDIUM,False,Log-only,ACTIVE
+CSE-ECHO-AST-0029,Server,OT Operations,LOW,True,Log-only,ACTIVE
+CSE-ECHO-AST-0030,IoT/OT Device,Remote Sites,LOW,False,Endpoint-only,ACTIVE
+CSE-ECHO-AST-0031,Database,Remote Sites,MEDIUM,True,Network-only,ACTIVE
+CSE-ECHO-AST-0032,IoT/OT Device,Corporate IT,MEDIUM,True,Endpoint-only,ACTIVE
+CSE-ECHO-AST-0033,Server,Data Center,LOW,True,Full telemetry,ACTIVE
+CSE-ECHO-AST-0034,Network Device,Customer Systems,MEDIUM,True,Network-only,ACTIVE
+CSE-ECHO-AST-0035,Cloud Workload,Corporate IT,MEDIUM,True,Log-only,ACTIVE
+CSE-ECHO-AST-0036,Database,Corporate IT,MEDIUM,True,Network-only,ACTIVE
+CSE-ECHO-AST-0037,Network Device,Corporate IT,LOW,True,Log-only,ACTIVE
+CSE-ECHO-AST-0038,Database,Corporate IT,HIGH,True,Log-only,ACTIVE
+CSE-ECHO-AST-0039,Database,Corporate IT,HIGH,True,Endpoint-only,MAINTENANCE
+CSE-ECHO-AST-0040,Cloud Workload,OT Operations,LOW,True,Full telemetry,ACTIVE
+CSE-ECHO-AST-0041,Database,Corporate IT,LOW,True,Full telemetry,ACTIVE
+CSE-ECHO-AST-0042,Cloud Workload,OT Operations,HIGH,True,Log-only,ACTIVE
+CSE-ECHO-AST-0043,Cloud Workload,Customer Systems,LOW,True,Network-only,MAINTENANCE
+CSE-ECHO-AST-0044,Cloud Workload,Remote Sites,MEDIUM,True,Log-only,ACTIVE
+CSE-ECHO-AST-0045,Endpoint,Customer Systems,HIGH,True,Log-only,ACTIVE
+CSE-ECHO-AST-0046,IoT/OT Device,OT Operations,HIGH,True,Full telemetry,ACTIVE
+CSE-ECHO-AST-0047,Cloud Workload,Customer Systems,MEDIUM,True,Full telemetry,MAINTENANCE
+CSE-ECHO-AST-0048,Application,Remote Sites,MEDIUM,True,Endpoint-only,ACTIVE
+CSE-ECHO-AST-0049,IoT/OT Device,OT Operations,HIGH,True,Full telemetry,ACTIVE
+CSE-ECHO-AST-0050,Server,Customer Systems,LOW,True,Log-only,ACTIVE
+CSE-ECHO-AST-0051,Endpoint,OT Operations,CRITICAL,True,Endpoint-only,ACTIVE
+CSE-ECHO-AST-0052,Database,Remote Sites,MEDIUM,False,Full telemetry,ACTIVE
+CSE-ECHO-AST-0053,Endpoint,Remote Sites,MEDIUM,True,Endpoint-only,ACTIVE
+CSE-ECHO-AST-0054,Cloud Workload,Data Center,CRITICAL,True,Log-only,ACTIVE

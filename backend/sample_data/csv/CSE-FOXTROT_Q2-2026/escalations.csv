@@ -1,0 +1,6 @@
+case_id,escalated_at,escalated_flag,escalation_id,escalation_level,escalation_reason,escalation_required,escalation_rule_id
+CSE-FOXTROT-CASE-Q2-2026-00001,2026-05-01T20:52:58Z,True,CSE-FOXTROT-CASE-Q2-2026-00001-ESC-01,SOC Manager,Regulatory notification criteria met,True,RULE-ESC-05
+CSE-FOXTROT-CASE-Q2-2026-00004,2026-06-24T23:07:33Z,True,CSE-FOXTROT-CASE-Q2-2026-00004-ESC-04,NCIIPC Liaison,Repeat condition on critical asset,True,RULE-ESC-05
+CSE-FOXTROT-CASE-Q2-2026-00008,2026-06-19T05:29:06Z,True,CSE-FOXTROT-CASE-Q2-2026-00008-ESC-08,CISO Office,Repeat condition on critical asset,True,RULE-ESC-06
+CSE-FOXTROT-CASE-Q2-2026-00029,2026-04-12T06:57:42Z,True,CSE-FOXTROT-CASE-Q2-2026-00029-ESC-29,CISO Office,,False,
+CSE-FOXTROT-CASE-Q2-2026-00046,,False,CSE-FOXTROT-CASE-Q2-2026-00046-ESC-46,,Repeat condition on critical asset,True,RULE-ESC-04

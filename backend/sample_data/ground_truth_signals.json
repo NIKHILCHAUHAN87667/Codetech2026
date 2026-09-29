@@ -1,0 +1,87 @@
+{
+  "personas": {
+    "CSE-ALPHA": {
+      "name": "Alpha Power Grid Corporation",
+      "sector": "POWER_AND_ENERGY",
+      "story": "Primary demo CSE. Q1-Q2 broadly sound; Q3 shows a cluster of superficially investigated, unusually fast-closed malware cases (anchor case CASE-1042), plus a rise in closures lacking evidence."
+    },
+    "CSE-BRAVO": {
+      "name": "Bravo National Bank",
+      "sector": "BANKING_AND_FINANCIAL_SERVICES",
+      "story": "Consistently strong performer across all three quarters. Used as the 'clean' peer baseline for benchmarking against the other CSEs."
+    },
+    "CSE-CHARLIE": {
+      "name": "Charlie Telecom Networks",
+      "sector": "TELECOMMUNICATIONS",
+      "story": "Persistent negative-space signal: a stable set of CRITICAL core-network assets produce no qualifying monitoring evidence across all three quarters (high CAMG / low OSEC)."
+    },
+    "CSE-DELTA": {
+      "name": "Delta Metro Transit Authority",
+      "sector": "TRANSPORTATION",
+      "story": "Recurrence pattern: a meaningful share of remediated conditions on OT signalling assets reappear within the recurrence window despite recorded remediation (high PRR)."
+    },
+    "CSE-ECHO": {
+      "name": "Echo Regional Healthcare Network",
+      "sector": "HEALTHCARE",
+      "story": "Governance signal: self-reported KPI values are systematically more favourable than the values SAT-SA independently derives from submitted evidence (high KECG) in every quarter."
+    },
+    "CSE-FOXTROT": {
+      "name": "Foxtrot Water & Utilities Board",
+      "sector": "WATER_AND_UTILITIES",
+      "story": "Escalation-process signal: a large share of HIGH/CRITICAL cases that meet defined escalation criteria are not escalated as required (low ER), most pronounced on SCADA-linked assets."
+    }
+  },
+  "camg_negative_space": [
+    {
+      "cse_id": "CSE-CHARLIE",
+      "period": "Q1-2026",
+      "asset_ids": [
+        "CSE-CHARLIE-AST-0047",
+        "CSE-CHARLIE-AST-0051"
+      ],
+      "signal": "Critical-asset monitoring gap (negative space)"
+    },
+    {
+      "cse_id": "CSE-CHARLIE",
+      "period": "Q2-2026",
+      "asset_ids": [
+        "CSE-CHARLIE-AST-0004",
+        "CSE-CHARLIE-AST-0013"
+      ],
+      "signal": "Critical-asset monitoring gap (negative space)"
+    },
+    {
+      "cse_id": "CSE-CHARLIE",
+      "period": "Q3-2026",
+      "asset_ids": [
+        "CSE-CHARLIE-AST-0044",
+        "CSE-CHARLIE-AST-0045"
+      ],
+      "signal": "Critical-asset monitoring gap (negative space)"
+    },
+    {
+      "cse_id": "CSE-DELTA",
+      "period": "Q2-2026",
+      "asset_ids": [
+        "CSE-DELTA-AST-0005"
+      ],
+      "signal": "Critical-asset monitoring gap (negative space)"
+    },
+    {
+      "cse_id": "CSE-ECHO",
+      "period": "Q1-2026",
+      "asset_ids": [
+        "CSE-ECHO-AST-0041"
+      ],
+      "signal": "Critical-asset monitoring gap (negative space)"
+    }
+  ],
+  "anchor_case": {
+    "case_id": "CASE-1042",
+    "cse_id": "CSE-ALPHA",
+    "asset_id": "CSE-ALPHA-AST-0002",
+    "signal": "Potential superficial investigation",
+    "expected_metrics": "Low ICS (<=~30) + very low TTCP percentile (fast closure) + elevated CEMR contribution",
+    "note": "Matches the frontend clickable-prototype demo narrative."
+  }
+}

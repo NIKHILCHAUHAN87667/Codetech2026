@@ -1,0 +1,2 @@
+assessment_period_end,assessment_period_start,count_alerts,count_assets,count_cases,count_escalations,count_evidence,count_investigation_actions,count_remediations,count_reported_kpis,cse_id,schema_version,source_format,submission_id,submission_timestamp
+2026-09-30T23:59:59Z,2026-07-01T00:00:00Z,322,66,98,21,403,569,62,8,CSE-CHARLIE,1.0,JSON,SUB-CSE-CHARLIE-Q3-2026,2026-10-02T09:59:59Z

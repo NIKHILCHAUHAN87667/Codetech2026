@@ -1,0 +1,67 @@
+asset_id,asset_type,business_unit,criticality,monitoring_expected,monitoring_scope,status
+CSE-CHARLIE-AST-0001,IoT/OT Device,Remote Sites,LOW,True,Log-only,ACTIVE
+CSE-CHARLIE-AST-0002,Server,Corporate IT,MEDIUM,True,Full telemetry,RETIRED
+CSE-CHARLIE-AST-0003,Cloud Workload,OT Operations,LOW,True,Network-only,ACTIVE
+CSE-CHARLIE-AST-0004,Cloud Workload,Customer Systems,HIGH,True,Endpoint-only,MAINTENANCE
+CSE-CHARLIE-AST-0005,Database,Data Center,LOW,True,Log-only,ACTIVE
+CSE-CHARLIE-AST-0006,Network Device,OT Operations,MEDIUM,True,Endpoint-only,ACTIVE
+CSE-CHARLIE-AST-0007,Database,Corporate IT,HIGH,True,Full telemetry,ACTIVE
+CSE-CHARLIE-AST-0008,Cloud Workload,Data Center,LOW,True,Full telemetry,ACTIVE
+CSE-CHARLIE-AST-0009,Database,OT Operations,MEDIUM,True,Endpoint-only,ACTIVE
+CSE-CHARLIE-AST-0010,Network Device,Field Operations,MEDIUM,True,Endpoint-only,ACTIVE
+CSE-CHARLIE-AST-0011,Server,Remote Sites,LOW,True,Endpoint-only,ACTIVE
+CSE-CHARLIE-AST-0012,Endpoint,Field Operations,MEDIUM,False,Full telemetry,ACTIVE
+CSE-CHARLIE-AST-0013,Cloud Workload,Data Center,LOW,True,Log-only,ACTIVE
+CSE-CHARLIE-AST-0014,Network Device,Field Operations,LOW,True,Endpoint-only,ACTIVE
+CSE-CHARLIE-AST-0015,Endpoint,OT Operations,LOW,True,Endpoint-only,ACTIVE
+CSE-CHARLIE-AST-0016,Application,Customer Systems,MEDIUM,True,Network-only,ACTIVE
+CSE-CHARLIE-AST-0017,Server,Field Operations,LOW,True,Log-only,ACTIVE
+CSE-CHARLIE-AST-0018,Server,Customer Systems,MEDIUM,False,Network-only,ACTIVE
+CSE-CHARLIE-AST-0019,Cloud Workload,Remote Sites,MEDIUM,True,Log-only,ACTIVE
+CSE-CHARLIE-AST-0020,Database,Field Operations,HIGH,True,Endpoint-only,ACTIVE
+CSE-CHARLIE-AST-0021,Database,Field Operations,LOW,True,Full telemetry,ACTIVE
+CSE-CHARLIE-AST-0022,Endpoint,Data Center,MEDIUM,True,Full telemetry,ACTIVE
+CSE-CHARLIE-AST-0023,Network Device,Corporate IT,LOW,True,Log-only,ACTIVE
+CSE-CHARLIE-AST-0024,Application,Customer Systems,LOW,True,Network-only,ACTIVE
+CSE-CHARLIE-AST-0025,Database,Corporate IT,CRITICAL,True,Endpoint-only,ACTIVE
+CSE-CHARLIE-AST-0026,Application,Corporate IT,HIGH,True,Full telemetry,ACTIVE
+CSE-CHARLIE-AST-0027,Application,Data Center,HIGH,True,Full telemetry,ACTIVE
+CSE-CHARLIE-AST-0028,Endpoint,Remote Sites,MEDIUM,True,Network-only,ACTIVE
+CSE-CHARLIE-AST-0029,Endpoint,Corporate IT,MEDIUM,True,Network-only,RETIRED
+CSE-CHARLIE-AST-0030,Endpoint,OT Operations,MEDIUM,True,Full telemetry,ACTIVE
+CSE-CHARLIE-AST-0031,Endpoint,Customer Systems,MEDIUM,True,Full telemetry,ACTIVE
+CSE-CHARLIE-AST-0032,Cloud Workload,Field Operations,LOW,True,Log-only,ACTIVE
+CSE-CHARLIE-AST-0033,Endpoint,Field Operations,CRITICAL,True,Network-only,ACTIVE
+CSE-CHARLIE-AST-0034,Endpoint,Data Center,MEDIUM,True,Network-only,ACTIVE
+CSE-CHARLIE-AST-0035,Cloud Workload,Corporate IT,LOW,True,Log-only,ACTIVE
+CSE-CHARLIE-AST-0036,Network Device,Corporate IT,MEDIUM,False,Log-only,RETIRED
+CSE-CHARLIE-AST-0037,IoT/OT Device,Field Operations,LOW,True,Log-only,ACTIVE
+CSE-CHARLIE-AST-0038,Database,Field Operations,MEDIUM,True,Endpoint-only,ACTIVE
+CSE-CHARLIE-AST-0039,Application,Remote Sites,HIGH,True,Endpoint-only,ACTIVE
+CSE-CHARLIE-AST-0040,Database,Field Operations,MEDIUM,True,Full telemetry,ACTIVE
+CSE-CHARLIE-AST-0041,IoT/OT Device,OT Operations,CRITICAL,True,Log-only,ACTIVE
+CSE-CHARLIE-AST-0042,Server,Customer Systems,MEDIUM,False,Network-only,ACTIVE
+CSE-CHARLIE-AST-0043,Server,Data Center,LOW,False,Log-only,ACTIVE
+CSE-CHARLIE-AST-0044,Database,Customer Systems,MEDIUM,True,Full telemetry,ACTIVE
+CSE-CHARLIE-AST-0045,Network Device,Customer Systems,HIGH,True,Log-only,ACTIVE
+CSE-CHARLIE-AST-0046,Database,Data Center,MEDIUM,True,Full telemetry,ACTIVE
+CSE-CHARLIE-AST-0047,Network Device,OT Operations,CRITICAL,True,Network-only,ACTIVE
+CSE-CHARLIE-AST-0048,Endpoint,Data Center,MEDIUM,False,Log-only,ACTIVE
+CSE-CHARLIE-AST-0049,Server,Remote Sites,HIGH,True,Network-only,RETIRED
+CSE-CHARLIE-AST-0050,IoT/OT Device,OT Operations,LOW,True,Endpoint-only,ACTIVE
+CSE-CHARLIE-AST-0051,Cloud Workload,Field Operations,CRITICAL,True,Full telemetry,ACTIVE
+CSE-CHARLIE-AST-0052,Endpoint,Customer Systems,MEDIUM,False,Endpoint-only,ACTIVE
+CSE-CHARLIE-AST-0053,Endpoint,Data Center,LOW,True,Full telemetry,ACTIVE
+CSE-CHARLIE-AST-0054,Database,OT Operations,MEDIUM,True,Endpoint-only,RETIRED
+CSE-CHARLIE-AST-0055,Database,OT Operations,HIGH,True,Full telemetry,ACTIVE
+CSE-CHARLIE-AST-0056,Cloud Workload,Corporate IT,LOW,True,Endpoint-only,ACTIVE
+CSE-CHARLIE-AST-0057,Endpoint,Customer Systems,LOW,False,Endpoint-only,ACTIVE
+CSE-CHARLIE-AST-0058,Application,Customer Systems,LOW,True,Network-only,ACTIVE
+CSE-CHARLIE-AST-0059,Network Device,Data Center,MEDIUM,True,Network-only,ACTIVE
+CSE-CHARLIE-AST-0060,Application,Field Operations,MEDIUM,True,Network-only,ACTIVE
+CSE-CHARLIE-AST-0061,Cloud Workload,OT Operations,MEDIUM,True,Endpoint-only,ACTIVE
+CSE-CHARLIE-AST-0062,Server,Corporate IT,HIGH,True,Log-only,ACTIVE
+CSE-CHARLIE-AST-0063,Database,OT Operations,HIGH,True,Network-only,ACTIVE
+CSE-CHARLIE-AST-0064,Endpoint,OT Operations,LOW,False,Network-only,ACTIVE
+CSE-CHARLIE-AST-0065,IoT/OT Device,Remote Sites,MEDIUM,True,Network-only,ACTIVE
+CSE-CHARLIE-AST-0066,Application,Corporate IT,MEDIUM,True,Network-only,MAINTENANCE

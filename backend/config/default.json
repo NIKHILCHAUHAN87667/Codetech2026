@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "baseline": {
+    "min_sample_metric": 5,
+    "peer_periods": 1,
+    "historical_periods": 2
+  },
+  "recurrence_window_days": 30,
+  "metric_thresholds": {
+    "OSEC_low": 90.0,
+    "CAMG_high": 10.0,
+    "TTCP_fast_percentile": 20.0,
+    "ICS_low": 70.0,
+    "ER_low": 80.0,
+    "PRR_high": 15.0,
+    "CEMR_high": 15.0,
+    "KECG_high": 8.0
+  },
+  "signal_rules": {
+    "superficial_investigation": {
+      "enabled": true,
+      "ttcp_max": 20.0,
+      "ics_max": 70.0
+    },
+    "monitoring_visibility_gap": {
+      "enabled": true,
+      "osec_max": 90.0,
+      "camg_min": 10.0
+    },
+    "post_remediation_recurrence": {
+      "enabled": true,
+      "prr_min": 15.0
+    },
+    "kpi_evidence_discrepancy": {
+      "enabled": true,
+      "kecg_min": 8.0
+    },
+    "escalation_compliance_gap": {
+      "enabled": true,
+      "er_max": 80.0
+    },
+    "closure_evidence_mismatch": {
+      "enabled": true,
+      "cemr_min": 15.0
+    }
+  },
+  "ics_requirements": {
+    "alert_reviewed": 1.0,
+    "evidence_examined": 1.5,
+    "affected_asset_identified": 1.0,
+    "investigation_actions_recorded": 1.0,
+    "findings_documented": 1.5,
+    "disposition_documented": 1.0,
+    "escalation_decision_documented": 1.0,
+    "remediation_recorded": 1.0
+  },
+  "cegs_weights": {
+    "superficial_investigation": 1.0,
+    "monitoring_visibility_gap": 1.0,
+    "post_remediation_recurrence": 1.0,
+    "kpi_evidence_discrepancy": 1.0,
+    "escalation_compliance_gap": 1.0,
+    "closure_evidence_mismatch": 1.0
+  }
+}
